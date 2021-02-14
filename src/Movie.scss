@@ -1,0 +1,33 @@
+.movie {
+  padding: 30px;
+
+  &__data {
+    display: grid;
+    grid-template-columns: mixmax(150px, 1fr) 2fr;
+    grid-gap: 20px;
+    background-color: #fff;
+    margin-top: 60px;
+    padding: 0 20px 20px 20px;
+    border-radius: 5px;
+    color: #555;
+    box-shadow: 0 13px 27px -5px rgba(50, 50, 93, 0.25), 0 8px 16px -8px rgba(0, 0, 0, 0.3), 0 -6px 16px -6px rgba(0, 0, 0, 0.025);
+  }
+
+  &__poster {
+    transform: translateY(-30px);
+    box-shadow: 0 30px 60px -12px rgba(50, 50, 93, 0.25), 0 18px 36px -18px rgba(0, 0, 0, 0.3), 0 -12px 36px -8px rgba(0, 0, 0, 0.025);
+  }
+
+  &__title {
+    font-size: 24px;
+    font-weight: normal;
+  }
+
+  &__genres {
+    display: flex;
+  }
+
+  &__genre {
+    margin-right: 15px;
+  }
+}
